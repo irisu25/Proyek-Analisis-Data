@@ -1,19 +1,26 @@
-# 🎈 Blank app template
+# Submission Dicoding: Proyek Analisis Data
 
-A simple Streamlit app template for you to modify!
+Proyek ini bertujuan untuk menganalisa data pada E-Commerce Public Dataset
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Instalasi
 
-### How to run it on your own machine
+1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
+   ```shell
+   git clone https://github.com/irisu25/Proyek-Analisis-Data.git
    ```
 
-2. Run the app
+2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
 
+   ```shell
+   pip install streamlit
+   pip install -r dashboard/requirements.txt
    ```
-   $ streamlit run streamlit_app.py
+
+## Penggunaan
+
+1. Masuk ke direktori proyek (Local):
+
+   ```shell
+   streamlit run main.py
    ```
